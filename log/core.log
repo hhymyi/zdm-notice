@@ -1,0 +1,387 @@
+2019-01-16 14:42:57.671  INFO 1848 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 1848 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 14:42:57.673  INFO 1848 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 14:42:58.928  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 14:42:58.930  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 14:42:59.161  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 224ms. Found 1 repository interfaces.
+2019-01-16 14:42:59.178  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 14:42:59.180  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 14:42:59.192  INFO 1848 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 14:42:59.193  INFO 1848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-16 14:42:59.722  INFO 1848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$def7c28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 14:43:00.144  INFO 1848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 14:43:00.395  INFO 1848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 14:43:00.510  INFO 1848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 14:43:00.636  INFO 1848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 14:43:00.638  INFO 1848 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 14:43:00.864  INFO 1848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 14:43:01.665  INFO 1848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 14:43:01.686  INFO 1848 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 14:43:01.698  INFO 1848 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@87d9a01
+2019-01-16 14:43:02.397  INFO 1848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 14:43:03.617  WARN 1848 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 14:43:04.404  INFO 1848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 14:43:05.083  INFO 1848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 14:43:05.111  INFO 1848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 14:43:05.125  INFO 1848 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 14:43:05.345  INFO 1848 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 14:43:05.346  INFO 1848 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 14:43:05.946  INFO 1848 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 8.993 seconds (JVM running for 10.265)
+2019-01-16 14:43:06.167  INFO 1848 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 14:43:07.290  INFO 1848 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 14:43:07.305  INFO 1848 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 14:43:07.325  INFO 1848 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 16:01:02.124  INFO 1132 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : Starting ZdmNoticeApplication on lenovo-PC with PID 1132 (G:\IdeaProjects\zdm-notice\target\classes started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 16:01:02.136  INFO 1132 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : No active profile set, falling back to default profiles: default
+2019-01-16 16:01:03.950  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:01:03.950  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:01:04.085  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 1 repository interfaces.
+2019-01-16 16:01:04.101  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:01:04.102  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:01:04.149  INFO 1132 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 16:01:04.149  INFO 1132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-16 16:01:04.605  INFO 1132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cd2f51e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 16:01:05.203  INFO 1132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2019-01-16 16:01:05.227  INFO 1132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-16 16:01:05.228  INFO 1132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-16 16:01:05.257  INFO 1132 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SinoVoice\jTTS 5.0 Desktop\Bin;D:\Program Files\Git\cmd;D:\Program Files\Python\Python37\Scripts\;D:\Program Files\Python\Python37\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Java\jdk1.8.0_45\bin;D:\Program Files\Java\jdk1.8.0_45\jre\bin;D:\Program Files\apache-maven-3.0.4\bin;.]
+2019-01-16 16:01:05.661  INFO 1132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/test]   : Initializing Spring embedded WebApplicationContext
+2019-01-16 16:01:05.661  INFO 1132 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3400 ms
+2019-01-16 16:01:06.056  INFO 1132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 16:01:06.356  INFO 1132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 16:01:06.462  INFO 1132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 16:01:06.559  INFO 1132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 16:01:06.562  INFO 1132 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 16:01:06.813  INFO 1132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 16:01:07.037  INFO 1132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 16:01:07.060  INFO 1132 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 16:01:07.068  INFO 1132 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@113eed88
+2019-01-16 16:01:07.841  INFO 1132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:01:08.912  WARN 1132 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 16:01:09.238  INFO 1132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:01:09.649  INFO 1132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 16:01:09.668  INFO 1132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 16:01:09.682  INFO 1132 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 16:01:10.205  INFO 1132 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 16:01:10.206  INFO 1132 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 16:01:10.789  INFO 1132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/test'
+2019-01-16 16:01:10.791  INFO 1132 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : Started ZdmNoticeApplication in 9.435 seconds (JVM running for 11.69)
+2019-01-16 16:01:30.869  INFO 1132 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/test]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-16 16:01:30.869  INFO 1132 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-16 16:01:30.878  INFO 1132 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-01-16 16:02:38.944  INFO 9908 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : Starting ZdmNoticeApplication on lenovo-PC with PID 9908 (G:\IdeaProjects\zdm-notice\target\classes started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 16:02:38.947  INFO 9908 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : No active profile set, falling back to default profiles: default
+2019-01-16 16:02:39.834  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:02:39.835  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:02:39.896  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-01-16 16:02:39.927  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:02:39.928  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:02:39.942  INFO 9908 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 16:02:39.943  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-16 16:02:40.274  INFO 9908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 16:02:40.570  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2019-01-16 16:02:40.594  INFO 9908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-16 16:02:40.594  INFO 9908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-16 16:02:40.600  INFO 9908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SinoVoice\jTTS 5.0 Desktop\Bin;D:\Program Files\Git\cmd;D:\Program Files\Python\Python37\Scripts\;D:\Program Files\Python\Python37\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Java\jdk1.8.0_45\bin;D:\Program Files\Java\jdk1.8.0_45\jre\bin;D:\Program Files\apache-maven-3.0.4\bin;.]
+2019-01-16 16:02:40.722  INFO 9908 --- [main] o.a.c.c.C.[.[localhost].[/zdm-notice]    : Initializing Spring embedded WebApplicationContext
+2019-01-16 16:02:40.722  INFO 9908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1737 ms
+2019-01-16 16:02:40.993  INFO 9908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 16:02:41.185  INFO 9908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 16:02:41.234  INFO 9908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 16:02:41.299  INFO 9908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 16:02:41.302  INFO 9908 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 16:02:41.446  INFO 9908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 16:02:41.589  INFO 9908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 16:02:41.612  INFO 9908 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 16:02:41.619  INFO 9908 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@15994b0b
+2019-01-16 16:02:42.193  INFO 9908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:02:42.937  WARN 9908 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 16:02:43.176  INFO 9908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:02:43.480  INFO 9908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 16:02:43.496  INFO 9908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 16:02:43.508  INFO 9908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 16:02:43.933  INFO 9908 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 16:02:43.934  INFO 9908 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 16:02:44.578  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/zdm-notice'
+2019-01-16 16:02:44.581  INFO 9908 --- [main] c.h.s.s.zdmnotice.ZdmNoticeApplication   : Started ZdmNoticeApplication in 6.093 seconds (JVM running for 7.496)
+2019-01-16 16:19:10.753  INFO 6952 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 6952 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 16:19:10.754  INFO 6952 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 16:19:12.257  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:19:12.271  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:19:12.501  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 221ms. Found 1 repository interfaces.
+2019-01-16 16:19:12.517  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:19:12.519  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:19:12.534  INFO 6952 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 16:19:12.535  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-01-16 16:19:13.159  INFO 6952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b124370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 16:19:13.597  INFO 6952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 16:19:13.958  INFO 6952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 16:19:14.090  INFO 6952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 16:19:14.259  INFO 6952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 16:19:14.261  INFO 6952 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 16:19:14.614  INFO 6952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 16:19:15.320  INFO 6952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 16:19:15.370  INFO 6952 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 16:19:15.384  INFO 6952 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2be818da
+2019-01-16 16:19:16.519  INFO 6952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:19:18.346  WARN 6952 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 16:19:19.146  INFO 6952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:19:20.553  INFO 6952 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 16:19:20.622  INFO 6952 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 16:19:20.638  INFO 6952 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 16:19:23.407  INFO 6952 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 16:19:23.410  INFO 6952 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 16:19:24.601  INFO 6952 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 14.819 seconds (JVM running for 17.68)
+2019-01-16 16:19:24.965  INFO 6952 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:19:26.179  INFO 6952 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:19:26.211  INFO 6952 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 16:19:26.227  INFO 6952 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 16:23:12.105  INFO 9908 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[localhost].[/zdm-notice]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-16 16:23:12.106  INFO 9908 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-16 16:23:12.114  INFO 9908 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-01-16 16:31:51.337  INFO 5504 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 5504 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 16:31:51.338  INFO 5504 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 16:31:52.727  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:31:52.730  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:31:52.892  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 1 repository interfaces.
+2019-01-16 16:31:52.905  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:31:52.906  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:31:52.920  INFO 5504 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 16:31:52.936  INFO 5504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-01-16 16:31:53.392  INFO 5504 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13c2768c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 16:31:53.776  INFO 5504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 16:31:54.072  INFO 5504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 16:31:54.200  INFO 5504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 16:31:54.343  INFO 5504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 16:31:54.346  INFO 5504 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 16:31:54.633  INFO 5504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 16:31:55.175  INFO 5504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 16:31:55.209  INFO 5504 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 16:31:55.219  INFO 5504 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@236ae13d
+2019-01-16 16:31:56.073  INFO 5504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:31:57.462  WARN 5504 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 16:31:58.267  INFO 5504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:31:58.887  INFO 5504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 16:31:58.921  INFO 5504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 16:31:58.937  INFO 5504 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 16:31:59.280  INFO 5504 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 16:31:59.282  INFO 5504 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 16:32:00.033  INFO 5504 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 9.266 seconds (JVM running for 10.549)
+2019-01-16 16:32:00.261  INFO 5504 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:32:01.402  INFO 5504 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:32:01.409  INFO 5504 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 16:32:01.427  INFO 5504 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 16:37:32.566  INFO 1620 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 1620 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 16:37:32.567  INFO 1620 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 16:37:33.907  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:37:33.909  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:37:34.098  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178ms. Found 1 repository interfaces.
+2019-01-16 16:37:34.114  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 16:37:34.115  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 16:37:34.131  INFO 1620 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 16:37:34.131  INFO 1620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-01-16 16:37:34.692  INFO 1620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d91896a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 16:37:35.031  INFO 1620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 16:37:35.281  INFO 1620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 16:37:35.397  INFO 1620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 16:37:35.494  INFO 1620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 16:37:35.497  INFO 1620 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 16:37:35.680  INFO 1620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 16:37:36.088  INFO 1620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 16:37:36.124  INFO 1620 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 16:37:36.135  INFO 1620 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@193eb1ba
+2019-01-16 16:37:36.992  INFO 1620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:37:38.306  WARN 1620 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 16:37:39.052  INFO 1620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:37:39.716  INFO 1620 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 16:37:39.741  INFO 1620 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 16:37:39.756  INFO 1620 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 16:37:39.992  INFO 1620 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 16:37:39.993  INFO 1620 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 16:37:40.548  INFO 1620 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 8.55 seconds (JVM running for 9.664)
+2019-01-16 16:37:40.683  INFO 1620 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 16:37:41.820  INFO 1620 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 16:37:41.831  INFO 1620 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 16:37:41.845  INFO 1620 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 16:41:09.673  INFO 9908 --- [http-nio-8085-exec-6] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-16 17:50:29.880  INFO 6820 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 6820 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 17:50:29.881  INFO 6820 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 17:50:31.893  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 17:50:31.895  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 17:50:32.129  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 222ms. Found 1 repository interfaces.
+2019-01-16 17:50:32.148  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 17:50:32.149  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 17:50:32.168  INFO 6820 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 17:50:32.169  INFO 6820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-01-16 17:50:33.190  INFO 6820 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51107268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 17:50:33.745  INFO 6820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 17:50:34.747  INFO 6820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 17:50:34.948  INFO 6820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 17:50:35.167  INFO 6820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 17:50:35.169  INFO 6820 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 17:50:35.479  INFO 6820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 17:50:36.881  INFO 6820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 17:50:36.907  INFO 6820 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 17:50:36.915  INFO 6820 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1d7eb170
+2019-01-16 17:50:37.620  INFO 6820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 17:50:39.214  WARN 6820 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 17:50:40.102  INFO 6820 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 17:50:40.808  INFO 6820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 17:50:40.844  INFO 6820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 17:50:40.870  INFO 6820 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 17:50:41.166  INFO 6820 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 17:50:41.168  INFO 6820 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 17:50:42.049  INFO 6820 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 13.072 seconds (JVM running for 15.245)
+2019-01-16 17:50:42.335  INFO 6820 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 17:50:43.457  INFO 6820 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 17:50:43.459  INFO 6820 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 17:50:43.472  INFO 6820 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 17:55:57.196  INFO 1864 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 1864 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 17:55:57.197  INFO 1864 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 17:55:58.626  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 17:55:58.629  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 17:55:58.824  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185ms. Found 1 repository interfaces.
+2019-01-16 17:55:58.838  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 17:55:58.840  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 17:55:58.855  INFO 1864 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 17:55:58.856  INFO 1864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-01-16 17:55:59.426  INFO 1864 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c4862f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 17:55:59.831  INFO 1864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 17:56:00.073  INFO 1864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 17:56:00.167  INFO 1864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 17:56:00.251  INFO 1864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 17:56:00.253  INFO 1864 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 17:56:00.424  INFO 1864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 17:56:00.885  INFO 1864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 17:56:00.911  INFO 1864 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 17:56:00.922  INFO 1864 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1320e68a
+2019-01-16 17:56:01.624  INFO 1864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 17:56:02.981  WARN 1864 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 17:56:03.842  INFO 1864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 17:56:04.798  INFO 1864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 17:56:04.831  INFO 1864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 17:56:04.849  INFO 1864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 17:56:05.165  INFO 1864 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 17:56:05.166  INFO 1864 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 17:56:05.860  INFO 1864 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 9.139 seconds (JVM running for 10.271)
+2019-01-16 17:56:06.328  INFO 1864 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 17:56:07.457  INFO 1864 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 17:56:07.478  INFO 1864 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 17:56:07.501  INFO 1864 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 18:54:33.237  INFO 6584 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 6584 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 18:54:33.238  INFO 6584 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 18:54:34.560  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 18:54:34.563  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 18:54:34.758  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185ms. Found 1 repository interfaces.
+2019-01-16 18:54:34.776  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 18:54:34.777  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 18:54:34.794  INFO 6584 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 18:54:34.795  INFO 6584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-01-16 18:54:35.402  INFO 6584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d91896a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 18:54:35.746  INFO 6584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 18:54:35.977  INFO 6584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 18:54:36.083  INFO 6584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 18:54:36.184  INFO 6584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 18:54:36.187  INFO 6584 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 18:54:36.406  INFO 6584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 18:54:36.812  INFO 6584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 18:54:36.837  INFO 6584 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 18:54:36.844  INFO 6584 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@46320c9a
+2019-01-16 18:54:37.517  INFO 6584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 18:54:38.685  WARN 6584 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 18:54:39.696  INFO 6584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 18:54:40.342  INFO 6584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 18:54:40.371  INFO 6584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 18:54:40.386  INFO 6584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 18:54:40.641  INFO 6584 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 18:54:40.643  INFO 6584 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 18:54:41.216  INFO 6584 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 8.495 seconds (JVM running for 9.591)
+2019-01-16 18:54:41.345  INFO 6584 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 18:54:42.471  INFO 6584 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 18:54:42.482  INFO 6584 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 18:54:42.500  INFO 6584 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 19:14:24.760  INFO 8184 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 8184 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 19:14:24.761  INFO 8184 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 19:14:27.583  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 19:14:27.585  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 19:14:27.790  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195ms. Found 1 repository interfaces.
+2019-01-16 19:14:27.808  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 19:14:27.809  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 19:14:27.827  INFO 8184 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 19:14:27.828  INFO 8184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-01-16 19:14:28.873  INFO 8184 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$357f8e49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 19:14:29.926  INFO 8184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 19:14:30.515  INFO 8184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 19:14:30.671  INFO 8184 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 19:14:30.791  INFO 8184 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 19:14:30.793  INFO 8184 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 19:14:31.156  INFO 8184 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 19:14:32.008  INFO 8184 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 19:14:32.031  INFO 8184 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 19:14:32.039  INFO 8184 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1d7eb170
+2019-01-16 19:14:32.666  INFO 8184 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 19:14:34.042  WARN 8184 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 19:14:34.855  INFO 8184 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 19:14:35.557  INFO 8184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 19:14:35.585  INFO 8184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 19:14:35.692  INFO 8184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 19:14:37.033  INFO 8184 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 19:14:37.035  INFO 8184 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 19:14:37.767  INFO 8184 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 14.591 seconds (JVM running for 16.797)
+2019-01-16 19:14:37.902  INFO 8184 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 19:14:39.019  INFO 8184 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 19:14:39.031  INFO 8184 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 19:14:39.058  INFO 8184 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 20:00:13.348  INFO 10656 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Starting ZdmNoticeApplicationTests on lenovo-PC with PID 10656 (started by lenovo in G:\IdeaProjects\zdm-notice)
+2019-01-16 20:00:13.350  INFO 10656 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : No active profile set, falling back to default profiles: default
+2019-01-16 20:00:15.707  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 20:00:15.710  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 20:00:15.969  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236ms. Found 1 repository interfaces.
+2019-01-16 20:00:15.987  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-16 20:00:15.989  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 20:00:16.001  INFO 10656 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository.
+2019-01-16 20:00:16.001  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-16 20:00:16.680  INFO 10656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32be29bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 20:00:17.168  INFO 10656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 20:00:17.437  INFO 10656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 20:00:17.583  INFO 10656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-16 20:00:17.717  INFO 10656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-16 20:00:17.719  INFO 10656 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-16 20:00:17.998  INFO 10656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-16 20:00:18.641  INFO 10656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-01-16 20:00:18.702  INFO 10656 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-01-16 20:00:18.711  INFO 10656 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@69c532af
+2019-01-16 20:00:19.549  INFO 10656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 20:00:21.087  WARN 10656 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 20:00:22.044  INFO 10656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 20:00:23.358  INFO 10656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-16 20:00:23.584  INFO 10656 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-16 20:00:23.703  INFO 10656 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-16 20:00:26.233  INFO 10656 --- [container-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-01-16 20:00:26.244  INFO 10656 --- [container-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-01-16 20:00:27.626  INFO 10656 --- [main] c.h.s.s.z.ZdmNoticeApplicationTests      : Started ZdmNoticeApplicationTests in 15.471 seconds (JVM running for 17.106)
+2019-01-16 20:00:27.973  INFO 10656 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 20:00:29.129  INFO 10656 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 20:00:29.140  INFO 10656 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 20:00:29.167  INFO 10656 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

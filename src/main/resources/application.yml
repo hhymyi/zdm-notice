@@ -1,0 +1,45 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /zdm-notice
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  mail:
+    host: smtp.qq.com
+    username: hhymyi@qq.com
+    password: iccjnapewfirbdhi
+    port: 465
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/zdm
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+  thymeleaf:
+    cache: false
+
+logging:
+  level:
+    root: info
+  file: ./log/core.log
+
+mail:
+  fromMail:
+    addr: hhymyi@qq.com
+  toMail:
+    addr: hhymyi@163.com
