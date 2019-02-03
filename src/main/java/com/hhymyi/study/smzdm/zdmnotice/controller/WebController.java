@@ -1,9 +1,6 @@
 package com.hhymyi.study.smzdm.zdmnotice.controller;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hhymyi.study.smzdm.zdmnotice.entity.MailNotice;
 import com.hhymyi.study.smzdm.zdmnotice.repository.MailNoticeRepository;
 import com.hhymyi.study.smzdm.zdmnotice.util.SendMailUtil;
@@ -11,12 +8,19 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.criteria.Predicate;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 @RestController
@@ -98,7 +102,7 @@ public class WebController {
 	public ModelAndView showNoticeHistory() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("host", "通知历史");
-		return new ModelAndView("/notice_history", map);
+		return new ModelAndView("notice_history", map);
 	}
 
 	@ApiOperation(value = "通知历史", notes = "查询通知历史")
@@ -106,6 +110,32 @@ public class WebController {
 	public Object noticeHistoryContent() {
 		List<MailNotice> all = mailNoticeRepository.findAll();
 		return all;
+	}
+
+	@ApiOperation(value = "通知历史 分页查询", notes = "查询通知历史")
+	@RequestMapping(value = "/noticeHistoryPage", method = RequestMethod.GET)
+	public Object noticeHistoryPage(int pageNum, int size, String startDate, String endDate, String searchContent) {
+		Page<MailNotice> page = mailNoticeRepository.findAll((Specification<MailNotice>) (root, criteriaQuery, cb) -> {
+			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+			List<Predicate> predicates = new ArrayList<>();
+			if (!StringUtils.isEmpty(startDate)) {
+				//大于或等于传入时间
+				LocalDate start = LocalDate.parse(startDate, dtf);
+				predicates.add(cb.greaterThanOrEqualTo(root.get("createDate").as(LocalDate.class), start));
+			}
+			if (!StringUtils.isEmpty(endDate)) {
+				//小于或等于传入时间
+				LocalDate end = LocalDate.parse(endDate, dtf);
+				predicates.add(cb.lessThanOrEqualTo(root.get("createDate").as(LocalDate.class), end));
+			}
+			if (!StringUtils.isEmpty(searchContent)) {
+				//模糊查找
+				predicates.add(cb.like(root.get("title").as(String.class), "%" + searchContent + "%"));
+			}
+			// and到一起的话所有条件就是且关系，or就是或关系
+			return cb.and(predicates.toArray(new Predicate[predicates.size()]));
+		}, PageRequest.of(pageNum, size));
+		return page;
 	}
 
 	@RequestMapping("/getMailNoticeByArticleId")

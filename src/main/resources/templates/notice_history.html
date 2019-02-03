@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head lang="en">
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title></title>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
 </head>
 <body>
 <h2 th:text="${host}">？</h2>
+<div>
+    开始时间：<input type="date" id="startDate"/>&nbsp;&nbsp;结束时间：<input type="date" id="endDate"/>&nbsp;&nbsp;标题：<input type="text" id="searchContent"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="reSearch()" value="查询">
+</div>
 <table border="1">
     <thead>
-        <tr>
-            <th>收件人</th>
-            <th>标题</th>
-            <th>内容</th>
-            <th>url</th>
-            <th>时间</th>
-            <th>文章ID</th>
-        </tr>
+    <tr>
+        <th>收件人</th>
+        <th>标题</th>
+        <th>内容</th>
+        <th>url</th>
+        <th>时间</th>
+        <th>文章ID</th>
+    </tr>
     </thead>
     <tbody id="result"></tbody>
 </table>
+<div>
+    <a href="javascript:void(0);" onclick="chagePage(-1);">上页</a>&nbsp;&nbsp;当前页：<input type="text" id="pageNum" value="1" onblur="search();">&nbsp;&nbsp;<a href="javascript:void(0);" onclick="chagePage(1);">下页</a>
+    共<span id="totalPages"></span>页&nbsp;&nbsp;<span id="totalElements"></span>条
+</div>
 
 </body>
 <script>
-    $(function(){
-       $.ajax({
-           url: "/noticeHistoryContent",
-           success: function(res){
-               if(res&&res.length>0){
-                   var html="";
-                   for (var i = 0; i <res.length ; i++) {
-                       html+="<tr>";
-                       html+="<td>"+res[i].toAddr+"</td>";
-                       html+="<td>"+res[i].title+"</td>";
-                       html+="<td>"+res[i].content+"</td>";
-                       html+="<td>"+res[i].url+"</td>";
-                       html+="<td>"+res[i].createDate+"</td>";
-                       html+="<td>"+res[i].articleId+"</td>";
-                       html+="</tr>";
-                   }
-                   $("#result").html(html);
-               }
-           }
-       });
+    var contextPath = "/zdm-notice";
+    $(function () {
+        search();
     });
+
+    function reSearch(){
+        $("#pageNum").val(1);
+        search();
+    }
+
+    function chagePage(flag) {
+        var pageNum = $("#pageNum").val();
+        if (flag > 0) {
+            var totalPages = $("#totalPages").text();
+            pageNum++;
+            if (pageNum > totalPages) {
+                return;
+            }
+        } else if (flag < 0) {
+            pageNum--;
+            if (pageNum <= 0) {
+                return;
+            }
+        }
+        $("#pageNum").val(pageNum);
+        search();
+    }
+
+    function search() {
+        $("#result").html("");
+        $("#totalPages").text("");
+        $("#totalElements").text("");
+        $.ajax({
+            url: contextPath + "/noticeHistoryPage",
+            data: {
+                "startDate": $("#startDate").val(),
+                "endDate": $("#endDate").val(),
+                "searchContent": $("#searchContent").val(),
+                "pageNum": $("#pageNum").val() - 1,
+                "size": 10
+            },
+            success: function (resp) {
+                $("#totalPages").text( resp.totalPages);
+                $("#totalElements").text( resp.totalElements);
+                var res = resp.content;
+                if (res && res.length > 0) {
+                    var html = "";
+                    for (var i = 0; i < res.length; i++) {
+                        html += "<tr>";
+                        html += "<td>" + res[i].toAddr + "</td>";
+                        html += "<td>" + res[i].title + "</td>";
+                        html += "<td>" + res[i].content + "</td>";
+                        html += "<td>" + res[i].url + "</td>";
+                        html += "<td>" + res[i].createDate + "</td>";
+                        html += "<td>" + res[i].articleId + "</td>";
+                        html += "</tr>";
+                    }
+                    $("#result").html(html);
+                }
+            }
+        });
+    }
 </script>
 </html>
