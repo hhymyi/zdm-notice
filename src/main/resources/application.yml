@@ -17,6 +17,9 @@ spring:
         smtp:
           ssl:
             enable: true
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
 
   datasource:
     platform: postgres
